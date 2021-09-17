@@ -1,0 +1,3 @@
+Hello {{user.username}}
+We have noticed you have signed up for our application.
+Wreck that one pitch like Raiph therefore invites you to this huge family so don't hesitate to add, like, dislike and critique other users pitches.
