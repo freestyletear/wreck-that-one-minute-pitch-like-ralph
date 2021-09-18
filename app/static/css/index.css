@@ -47,10 +47,6 @@ h1, h2, h3, h4, h5, h6 {
 .opaque-navbar {
     background-color:#000;
     height: 60px;
-    /* border-bottom: 0px;
-    transition: background-color .5s ease 0s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
-    transition: background-color .5s ease 0s; */
 
 }
 .opaque-navbar.opaque {

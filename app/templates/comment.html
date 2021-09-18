@@ -12,12 +12,10 @@
                     {% if pitch.user.profile_pic_path %}
                      <p>
                          <img src="{{url_for('static',filename = pitch.user.profile_pic_path)}}" alt="" class="img-thumbnail rounded-circle">
-                         <!-- <a href="/user/{{pitch.user.username}}&{{pitch.user.id}}">{{pitch.user.username|capitalize}}</a> -->
                      </p>
                      {% else %}
                      <p>
-                         <img src="{{url_for('static',filename = 'photos/avatar.jpg')}}" alt="" class="img-thumbnail rounded-circle">
-                         <!-- <a href="/user/{{pitch.user.username}}&{{pitch.user.id}}">{{pitch.user.username|capitalize}}</a> -->
+                         <img src="{{url_for('static',filename = 'photos/profile_pic_placeholder_1.png')}}" alt="" class="img-thumbnail rounded-circle">
                      </p>
                      {% endif %}
                 </div>
