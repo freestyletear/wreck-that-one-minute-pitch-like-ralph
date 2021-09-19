@@ -72,6 +72,9 @@ a.nav-item.nav-link.brand.opaque{
 a.nav-item.nav-link.brand.opaque:hover{
     color: #544a4a;
 }
+.navbar-nav li {
+    list-style: none;
+}
 
 /* Landing Page */
 .wrapper{

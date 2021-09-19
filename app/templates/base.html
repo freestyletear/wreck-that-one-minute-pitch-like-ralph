@@ -3,7 +3,29 @@
     {{ super() }}
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Roboto:300,400,700|PT+Sans:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}"> 
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}"> 
+    <link rel="stylesheet" href="{{url_for('static',filename='css/font-awesome.min.css')}}">
+    
+    
+    <!-- COLORS -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/blue.css')}}" title="blue"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
+    <link rel="alternate stylesheet" href="{{url_for('static',filename='css/green.css')}}" title="green"> 
+    <link rel="alternate stylesheet" href="{{url_for('static',filename='css/orange.css')}}" title="orange"> 
+    <link rel="alternate stylesheet" href="{{url_for('static',filename='css/purple.css')}}" title="purple"> 
+    <link rel="alternate stylesheet" href="{{url_for('static',filename='css/slate.css')}}" title="slate"> 
+    <link rel="alternate stylesheet" href="{{url_for('static',filename='css/yellow.css')}}" title="yellow"> 
+    <link rel="alternate stylesheet" href="{{url_for('static',filename='css/red.css')}}" title="red"> 
+    <link rel="anonymous stylesheet" href="{{url_for('static',filename='css/blue-munsell.css')}}" title="blue-munsell"> 
+
+	<!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
+    <link rel="anonymous stylesheet" href="{{url_for('static',filename='css/demo.css')}}" title="blue-munsell"> 
+
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}"> <!-- MAIN-->
 {% endblock %}
 
 {% block navbar %}
@@ -16,4 +38,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="{{url_for('static',filename='js/navbar.js')}}"></script>
+
+
+    <script type="text/javascript" src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
+    <!-- =========================================================
+	     STYLE SWITCHER | ONLY FOR DEMO NOT INCLUDED IN MAIN FILES
+	============================================================== -->
+    <script type="text/javascript" src="{{url_for('static',filename='js/styleswitcher.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='js/demo.js')}}"></script>
+
+    {% include 'style.html' %}
+
 {% endblock %}

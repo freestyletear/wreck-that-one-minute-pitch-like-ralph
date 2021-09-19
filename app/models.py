@@ -163,4 +163,4 @@ class Dislike (db.Model):
     def __repr__(self):
         return f'{self.user_id}:{self.pitch_id}'
 
-# Trial attempt
+
