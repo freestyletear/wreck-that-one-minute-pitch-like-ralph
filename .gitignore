@@ -2,3 +2,4 @@
 venv/
 *.pyc
 /app/email.py
+start.sh

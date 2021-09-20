@@ -37,7 +37,7 @@ def register():
         db.session.add(user)
         db.session.commit()
 
-        mail_message("Wreck that one pitch like Ralph is welcoming you to explore pitch that idea that has so long been craving to be shared.","email/welcome_user",user.email,user=user)
+        # mail_message("Wreck that one pitch like Ralph is welcoming you to explore pitch that idea that has so long been craving to be shared.","email/welcome_user",user.email,user=user)
 
         return redirect(url_for('auth.login'))
         title = "New Account| Wreck that one pitch like Ralph"
