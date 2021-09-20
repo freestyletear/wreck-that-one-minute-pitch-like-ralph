@@ -27,7 +27,7 @@
                 <p>{{user.username|capitalize}} has no bio</p>
             {% endif %}
             {% if user == current_user %}
-            <a href="{{url_for('main.update_profile',uname=user.username)}}">Edit Bio</a>
+            <a href="{{url_for('main.update_profile',uname=user.username)}}">Update Bio</a>
             <br>
             {% endif %}
             <br>

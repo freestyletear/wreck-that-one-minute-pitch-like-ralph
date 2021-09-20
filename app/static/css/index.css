@@ -3,7 +3,64 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     overflow-x: hidden;
+}
+*,
+*
+:before,
+:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+/* ============================================================
+                    NAVIGATION
+============================================================ */
+.navbar-nav li {
+    list-style: none;
+}
+a.nav-item.nav-link.brand {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-brand {
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: red;
+}
+.brand-img {
+    height: 58px;
+    width: 60px;
+}
+.navbar-brand:hover, 
+a.nav-item.nav-link.brand:hover {
+    color: orange;
+    text-decoration: none;
+}
+.navbar {
+    background-color: #000;
+    height: 60px;
+}
+.navbar-nav {
+    margin-top: 1.5%;
+}
+.navbar .container {
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
 
+
+
+
+
+/* body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
     font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #333333;
     margin-top: 5rem;
@@ -17,12 +74,12 @@ body {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
-}
+} */
 
 /*Styles for the home page*/
 
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
 
@@ -40,27 +97,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-header .navbar-nav .nav-link.active {
   font-weight: 500;
-}
+} */
 
 
-/* Navbar Styling */
-.opaque-navbar {
+/* ============================================================
+                    NAVBAR STYLING
+============================================================ */
+/* .opaque-navbar {
     background-color:#000;
     height: 60px;
 
-}
-.opaque-navbar.opaque {
+} */
+/* .opaque-navbar.opaque {
     background-color: #fff;
     border-bottom: 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
     transition: background-color .5s ease 0s;
     height: 60px;
-}
-
-/* a{
-    color: #2291d8;
 } */
-a.navbar-brand.mr-4.opaque{
+
+/* a.navbar-brand.mr-4.opaque{
     color: #000;
 }
 a.navbar-brand.mr-4.opaque:hover{
@@ -74,24 +130,24 @@ a.nav-item.nav-link.brand.opaque:hover{
 }
 .navbar-nav li {
     list-style: none;
-}
+} */
 
 /* Landing Page */
-.wrapper{
+/* .wrapper{
     padding-top: 30px;
-}
+} */
 
 
 /* Profile Styling */
-.picture{
+/* .picture{
     border: 0px;
     padding: 0px;
     padding-bottom: 0px;
     padding-bottom: 10px;
-}
+} */
 /* Style for the pitches section */
 
-a.nav-link.active.show{
+/* a.nav-link.active.show{
 border: 0px;
 border-bottom: 2px solid #119cf5;
 background-color: inherit;
@@ -148,7 +204,7 @@ div.card{
 div.img-responsive.thumbnail.interview{
     height: 260px;
     width: 500px;
-    background-image: url(../assets/1.jpg) ;
+    background-image: url('../photos/interview.jpg');
     background-repeat: no-repeat;
     background-attachment: cover;
 
@@ -156,21 +212,21 @@ div.img-responsive.thumbnail.interview{
 div.img-responsive.thumbnail.product{
     height: 260px;
     width: 500px;
-    background-image: url(../assets/2.jpg) ;
+    background-image: url('../photos/product.jpg');
     background-repeat: no-repeat;
     background-attachment: cover;
 }
 div.img-responsive.thumbnail.promotion{
     height: 260px;
     width: 500px;
-    background-image: url(../assets/1.jpg) ;
+    background-image: url('../photos/promotion.jpg');
     background-repeat: no-repeat;
     background-attachment: cover;
 }
 div.img-responsive.thumbnail.business{
     height: 260px;
     width: 500px;
-    background-image: url(../assets/3.jpg) ;
+    background-image: url('../photos/business.jpg');
     background-repeat: no-repeat;
     background-attachment: cover;
 }
@@ -200,10 +256,10 @@ hr{
 img.img-thumbnail.rounded-circle{
     margin: 10px;
     height: 150px;
-}
+} */
 
 /* Registration and Login Form */
-.pitchit-form{
+/* .pitchit-form{
     box-shadow: 2px 4px 12px 2px #dcdcdc;
     margin-top: 2rem;
     padding-top: 1rem;
@@ -216,10 +272,12 @@ img.img-thumbnail.rounded-circle{
 }
 input#submit.btn.btn-primary{
     margin-top: 10px;
-}
+} */
 
-/* Comments */
-div.something{
+/* ===========================================================
+                     COMENTS
+=========================================================== */
+/* div.something{
     margin-left: 20px;
 
 }
@@ -236,4 +294,4 @@ img.img-thumbnail.rounded-circle.comment{
 
 .post {
     margin-top: 50px;
-}
+} */
