@@ -26,7 +26,6 @@ a.nav-item.nav-link.brand {
     font-weight: bold;
 }
 .navbar-brand {
-    /* font-size: 20px; */
     font-weight: bold;
     color: red;
 }
@@ -51,156 +50,20 @@ a.nav-item.nav-link.brand:hover {
     top: 0;
     left: 70px;
 }
-
-
-
-
-
-/* body {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #333333;
-    margin-top: 5rem;
-}
-*,
-*
-:before,
-:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-} */
-
-/*Styles for the home page*/
-
-
-/* h1, h2, h3, h4, h5, h6 {
-  color: #444444;
-}
-
-.bg-steel {
-  background-color: #5f788a;
-}
-
-.site-header .navbar-nav .nav-link {
-  color: #cbd5db;
-}
-
-.site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
-}
-
-.site-header .navbar-nav .nav-link.active {
-  font-weight: 500;
-} */
-
-
 /* ============================================================
-                    NAVBAR STYLING
+                       HOME
 ============================================================ */
-/* .opaque-navbar {
-    background-color:#000;
-    height: 60px;
-
-} */
-/* .opaque-navbar.opaque {
-    background-color: #fff;
-    border-bottom: 0px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
-    transition: background-color .5s ease 0s;
-    height: 60px;
-} */
-
-/* a.navbar-brand.mr-4.opaque{
-    color: #000;
-}
-a.navbar-brand.mr-4.opaque:hover{
-    color: #544a4a;
-}
-a.nav-item.nav-link.brand.opaque{
-    color: #000;
-}
-a.nav-item.nav-link.brand.opaque:hover{
-    color: #544a4a;
-}
-.navbar-nav li {
-    list-style: none;
-} */
-
-/* Landing Page */
-/* .wrapper{
+.wrapper{
     padding-top: 30px;
-} */
-
-
-/* Profile Styling */
-/* .picture{
-    border: 0px;
-    padding: 0px;
-    padding-bottom: 0px;
-    padding-bottom: 10px;
-} */
-/* Style for the pitches section */
-
-/* a.nav-link.active.show{
-border: 0px;
-border-bottom: 2px solid #119cf5;
-background-color: inherit;
 }
-
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-border: 0px;
-border-color: #dee2e6 #dee2e6 #fff;
-border-bottom: 2px solid #119cf5;
-background-color: inherit;
-}
-a.nav-link{
-    color: #a3a3a3;
-}
-
 .nav-tabs-right {
   text-align:right;
   float: center;
 }
-
 .nav-tabs-right > li {
   display:inline-block;
   float:none;
-
 }
-.inline{
-    display: inline-block;
-}
-.heading{
-    margin-right: 350px;
-}
-
-section{
-    margin-top: 30px;
-}
-.intro{
-    margin-bottom: 20px;
-}
-
-
-.media-body{
-    border: 0px;
-    border-top: 1 px solid;
-
-}
-
-div.card{
-    border: 0px;
-    border-radius: 0px;
-
-    margin: 10px;
-}
-
 div.img-responsive.thumbnail.interview{
     height: 260px;
     width: 500px;
@@ -230,18 +93,42 @@ div.img-responsive.thumbnail.business{
     background-repeat: no-repeat;
     background-attachment: cover;
 }
+.media-body{
+    border: 0px;
+    border-top: 1 px solid;
+}
 div.card{
+    border: 0px;
     box-shadow: 2px 4px 12px 2px #DCDCDC;
     padding-bottom: 1rem;
-    border-radius: 0px;
-
-    margin: 0px;
-    margin-bottom: 20px;
+    border-radius: 30px;
+    margin-bottom: 0px 0px 20px 0px;
     width: 100%;
 }
 hr{
     margin: 0px;
     margin-right: 100px;
+}
+section{
+    margin-top: 30px;
+}
+.intro{
+    margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+.picture{
+    border: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    padding-bottom: 10px;
+}
+.inline{
+    display: inline-block;
+}
+.heading{
+    margin-right: 350px;
 }
 .fas.fa-comment{
     padding-right:5px;
@@ -253,13 +140,10 @@ hr{
     padding-right: 5px;
 }
 
-img.img-thumbnail.rounded-circle{
-    margin: 10px;
-    height: 150px;
-} */
-
-/* Registration and Login Form */
-/* .pitchit-form{
+/* ===========================================================
+                 REGISTRATION
+=========================================================== */
+.pitchit-form{
     box-shadow: 2px 4px 12px 2px #dcdcdc;
     margin-top: 2rem;
     padding-top: 1rem;
@@ -272,12 +156,12 @@ img.img-thumbnail.rounded-circle{
 }
 input#submit.btn.btn-primary{
     margin-top: 10px;
-} */
+}
 
 /* ===========================================================
                      COMENTS
 =========================================================== */
-/* div.something{
+div.something{
     margin-left: 20px;
 
 }
@@ -294,4 +178,4 @@ img.img-thumbnail.rounded-circle.comment{
 
 .post {
     margin-top: 50px;
-} */
+}

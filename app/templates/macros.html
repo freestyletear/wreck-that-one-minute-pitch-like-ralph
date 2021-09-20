@@ -10,11 +10,11 @@
                             <div class="col-md-2 img-responsive">
                                 {% if pitch.user.profile_pic_path %}
                                  <p>
-                                     <img src="{{url_for('static',filename = pitch.user.profile_pic_path)}}" alt="" class="img-thumbnail rounded-circle">
+                                     <img src="{{url_for('static',filename = pitch.user.profile_pic_path)}}" alt="" class="img-thumbnail">
                                  </p>
                                  {% else %}
                                  <p>
-                                     <img src="{{url_for('static',filename = 'photos/pp2.png')}}" alt="" class="img-thumbnail rounded-circle">
+                                     <img src="{{url_for('static',filename = 'photos/pp2.png')}}" alt="" class="img-thumbnail">
                                  </p>
                                  {% endif %}
                             </div>
