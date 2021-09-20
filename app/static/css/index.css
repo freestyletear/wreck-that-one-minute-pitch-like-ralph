@@ -25,6 +25,7 @@ a.nav-item.nav-link.brand {
     font-size: 20px;
     font-weight: bold;
 }
+.footer,
 .navbar-brand {
     font-weight: bold;
     color: red;
@@ -33,18 +34,22 @@ a.nav-item.nav-link.brand {
     height: 58px;
     width: 60px;
 }
+.top:hover,
 .navbar-brand:hover, 
 a.nav-item.nav-link.brand:hover {
     color: orange;
     text-decoration: none;
 }
+.footer,
 .navbar {
     background-color: #000;
     height: 60px;
 }
+.footer,
 .navbar-nav {
     margin-top: 1.5%;
 }
+
 .navbar .container {
     position: absolute;
     top: 0;
@@ -53,6 +58,11 @@ a.nav-item.nav-link.brand:hover {
 /* ============================================================
                        HOME
 ============================================================ */
+.overflow {
+    overflow: scroll;
+    height: 250px;
+    width: 1000px;
+}
 .brand-two {
     color: saddlebrown;
     background-color: rgba(250, 250, 250, 0.9);
@@ -65,17 +75,19 @@ a.nav-item.nav-link.brand:hover {
     background-image: url('../photos/wreck-it-ralph-png-free-download.png');
     background-repeat: no-repeat;
     background-position: center right;
+    height: 640px;
 }
 .wrapper-three {
     background-image: url('../photos/Super-Smash-Bros-Transparent.png');
     background-repeat: no-repeat;
     background-position: center left;
+    height: 640px;
 }
 .wrapper-four {
     background-image: url('../photos/Download-Free-png-Wreck-It-Ralph-PNG-Photo-DLPNG.com.png');
     background-repeat: no-repeat;
     background-position: right;
-    height: 500px;
+    height: 640px;
 }
 .nav-tabs-right {
   text-align:right;
@@ -160,9 +172,6 @@ h1, h2, h3, h4, h5, h6 {
 .far.fa-thumbs-down{
     padding-right: 5px;
 }
-/* .row.pitch {
-    background-color: rgba(234, 248, 234, 0.9);
-} */
 
 /* ===========================================================
                  REGISTRATION
@@ -202,4 +211,16 @@ img.img-thumbnail.rounded-circle.comment{
 
 .post {
     margin-top: 50px;
+}
+/* ===========================================================
+                    FOOTER
+=========================================================== */
+.footer p span a {
+    color: darkblue;
+    text-decoration: none;
+}
+.footer p {
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 1.5%;    
 }
